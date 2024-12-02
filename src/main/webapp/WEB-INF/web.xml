@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                       
+http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+
+	<!--
+	 
+	  	서블릿 등록
+	  	<servlet>태그에 자식으로 아래 태그들을  선언 
+	  		<servlet-name> : xml내부에서 사용하는 서블릿 이름 -> 개발자 설정
+	  		<servlet-class> : 자바코드로 생성한 클래스  -> 패키지명부터 클래스까지 설
+	 
+	 	
+	 -->
+	
+	<servlet>
+		<servlet-name>basic</servlet-name>
+		<servlet-class>com.web.controller.BasicServlet</servlet-class>
+	</servlet>
+
+	<!--
+	 
+		서블릿을 실행할 주소(url)를 설정
+		<servlet-mapping>태그에 자식태그로 아래 태그를 설정
+			<servlet-name> : 서블릿선언시 설정한 서블릿 이름 설정
+			<url-pattern> :  클라이언트 요청 URL 주소를 설정 
+			주소는 항상 /로시작해야함.
+	 --> 
+	 
+	  	<servlet-mapping>
+			<servlet-name>basic</servlet-name>
+			<url-pattern>/first.do</url-pattern>
+		</servlet-mapping>
+	  	<servlet-mapping>
+			<servlet-name>basic</servlet-name>
+			<url-pattern>/second.do</url-pattern>
+		</servlet-mapping>
+	 
+
+</web-app>
