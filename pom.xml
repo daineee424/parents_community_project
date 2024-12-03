@@ -7,6 +7,10 @@
 	<version>1.0</version>
 	<packaging>war</packaging>
 	<name>basicweb</name>
+	<!-- 변수를 지정하는 태그 -->
+	<properties>
+		<java-version>17</java-version>
+	</properties>
 	<dependencies>
 		<!--필요한라이브러리(jar) 등록하는 곳 -->
 		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
@@ -32,4 +36,25 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+
+		<!--프로젝트를 컴파일 할때 적용하는 내용 -->
+	<build>
+		<!--패키징시 이름 설정-> contextPath -->
+		<finalName>myproject</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>	
+				<version>3.13.0</version>	
+				<configuration>
+					<source>${java-version}</source>
+					<target>${java-version} </target>
+				</configuration>	
+			</plugin>
+		</plugins>
+	</build>
+
+
+
+
 </project>
