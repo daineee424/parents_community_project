@@ -11,8 +11,8 @@
 			<input type="text" placeholder="ID"> <input type="password"
 				placeholder="PASSWORD">
 			<div class="text-right small-text">
-				<a href="#">ID찾기</a> <a href="searchPassword.html">비밀번호 찾기</a> <a
-					href="signUp.html">회원가입</a>
+				<a href="#">ID찾기</a> <a href="searchPassword.html">비밀번호 찾기</a> 
+				<a href="${pageContext.request.contextPath}/user/sign.do">회원가입</a>
 			</div>
 			<button>LOGIN</button>
 		</div>
