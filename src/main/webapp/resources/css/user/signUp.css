@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+    /* 회원가입 화면 전용 스타일 */
+    .signup-container {
+      width: 300px;
+      background-color: #f7f4ee;
+      padding: 20px 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .signup-title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #4d4d3d;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+  		justify-content: center;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 14px;
+      font-weight: bold;
+      color: #4d4d3d;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group select {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .form-group .error {
+      color: #e74c3c;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+
+    .checkbox-group {
+      margin: 20px 0;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    .checkbox-group label {
+      font-size: 14px;
+      color: #4d4d3d;
+    }
+
+    .signup-btn {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #7ba37e;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .signup-btn:hover {
+      background-color: #4d4d3d;
+    }
