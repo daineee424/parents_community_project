@@ -1,6 +1,9 @@
-@charset "UTF-8";
+/* @charset "UTF-8";
+* div, div button{
+	border: 1px solid red;
+}
 
-    /* 헤더 스타일 */
+    헤더 스타일
     .header {
       display: flex;
       align-items: center;
@@ -11,33 +14,33 @@
     }
 
     .header img {
-      width: 150px; /* 로고 크기 */
-      height: 150px;
+      width: 80px ; 로고 크기
+      height: 80px;
       border-radius: 10px;
       margin-left:30px;
     }
-
-    .search-bar {
-      flex-grow: 1;
-      margin: 0 20px;
+    
+    .search-box{
+    	flex:none;
+    	width:50%;
+    	height: 20px;
     }
-
-    .search-bar input {
-      width: 100%;
-      height: 40px;
-      border: 2px solid #7ba37e;
-      border-radius: 20px;
-      padding: 0 15px;
-      font-size: 16px;
-      outline: none;
+    
+    .search-txt{
+    	flex:none;
+    	width:120px;
     }
+    
+    
 
     .menu-icons {
       display: flex;
       align-items: center;
-/*       gap: 10px; */
-    }
-
+      gap: 10px;
+    } */
+    
+    
+    
 /*     .menu-icons span {
       display: block;
       width: 10px;
@@ -54,3 +57,327 @@
       font-size: 14px;
       font-weight: bold;
     } */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* @charset "UTF-8";
+
+div{
+	border: 1px solid red;
+}
+
+body{
+	font-family:"휴먼모음T";
+}
+
+
+div,section,header,footer{
+	padding:10px;
+	}
+
+div#container{
+	background-color:#F0F0F0;
+	width:100%;
+	margin:0 auto;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+	background-color:#00BCD4;
+	height:130px;
+	position:relative;
+	padding:10px 0 0 0;
+}
+header>div{
+	display:flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-between;
+}
+
+header>div>img {
+      width: 80px ;
+      height: 80px;
+      border-radius: 10px;
+      margin-left:30px;
+}
+
+.search-box{
+	flex: none;
+	width: 50%;
+}
+
+.search-txt{
+	flex: none;
+	width: 90%;
+}
+
+section#content{
+	background-color:#F5F5F5;
+	float:left;
+	width:100%;
+	min-height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer{
+	background-color:#00BCD4;
+	clear:both;
+	height:75px;
+	text-align:center;
+	padding-top:40px;
+}
+
+로그인컨테이너
+header div.login-container{width:250px; position:absolute; right: 0px; top: 10px;}
+
+#loginFrm table{empty-cells:hide;}
+#loginFrm input[type=submit]{width:60px; height:50px; color:white; background:#3300ff; position:absolute; top:10px;}
+#saveId+label{font-size:12px;font-family:'고딕'}
+
+메뉴관련스타일
+header nav {background:#5283de; width:100%; margin-top:40px;}
+
+ul태그의 가운데정렬
+ul.main-nav{
+	width:80%;
+	display:table;
+	padding:0px;
+	margin:auto;
+}
+ul.main-nav li { 
+	list-style-type: none; 
+	width: 8em; 
+	height: 2em;
+	float: left; 
+	text-align: center; 
+	font-family: "휴먼모음T", sans-serif; 
+	border-left: 1px #00bcd4 solid;
+	background-color: #5283de; 
+}
+ul.main-nav li:last-of-type{border-right:1px #00bcd4 solid;;}
+ul.main-nav li a {
+	display: block;
+	padding:.5em;
+	text-decoration: none;
+	color: #292929;
+}
+
+hover시 배경색 변경
+ul.main-nav li:hover{
+	background-color: #3300ff;
+}
+ul.main-nav li:hover > a{
+	color:#FFF; 글자색
+}
+  */
+
+
+* div{
+	border: 1px solid red;
+}  
+/* 전체 컨테이너 스타일 */
+.header-container {
+  background-color: #f7f4ee; /* 배경색 */
+  font-family: Arial, sans-serif;
+}
+
+/* 헤더 스타일 */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* 로고 스타일 */
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+/* 검색 박스 스타일 */
+/* .search-box {
+  display: flex;
+  align-items: center;
+  background-color: #e7f4e6;
+  border: 2px solid #7ba37e;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.search-button {
+	display: flaot;
+  background-color: #7ba37e;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+ */
+ /* 전체 검색 컨테이너 */
+/* .search-container {
+    display: flex;
+    justify-content: center; 수평 가운데 정렬
+    align-items: center; 수직 가운데 정렬
+    padding: 20px;
+}
+
+검색 폼
+.search-form {
+    display: flex;
+    align-items: center;
+    border: 2px solid #7BA37E; 테두리 색상
+    border-radius: 50px; 둥근 테두리
+    overflow: hidden; 버튼이 둥글게 잘리도록
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 약간의 그림자 효과
+    width: 400px; 검색창 너비
+}
+
+입력 필드
+.search-input {
+    flex: 1; 버튼을 제외한 나머지 공간을 모두 차지
+    border: none; 테두리 제거
+    padding: 10px 20px; 안쪽 여백
+    font-size: 16px; 글자 크기
+    outline: none; 클릭 시 테두리 제거
+    color: #495057; 입력 텍스트 색상
+}
+
+버튼
+.search-button {
+    background-color: #7BA37E; 버튼 배경색
+    color: white; 아이콘 색상
+    border: none; 테두리 제거
+    padding: 10px 20px; 안쪽 여백
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 호버 애니메이션
+}
+
+버튼 아이콘
+.search-button i {
+    font-size: 18px;
+}
+
+버튼 호버 효과
+.search-button:hover {
+    background-color: #679a67; 호버 시 어두운 녹색
+} */
+
+/* 검색 컨테이너 */
+.search-container {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    padding: 15px;
+}
+
+/* 검색 폼 */
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 2px solid #7BA37E; /* 테두리 색상 */
+    border-radius: 50px; /* 둥근 테두리 */
+    overflow: hidden; /* 둥근 테두리 내에서 요소가 잘리도록 */
+    width: 400px; /* 검색창 너비 */
+    height: 40px; /* 검색창 높이 */
+}
+
+/* 입력 필드 */
+.search-input {
+    flex: 1; /* 입력 필드가 남은 공간을 채우도록 */
+    border: none; /* 테두리 제거 */
+    padding: 10px 20px; /* 내부 여백 */
+    font-size: 16px; /* 글자 크기 */
+    outline: none; /* 포커스 시 테두리 제거 */
+    color: #495057; /* 텍스트 색상 */
+    background-color: transparent; /* 입력창 배경 투명 */
+}
+
+/* 버튼 */
+.search-button {
+    background-color: #7BA37E; /* 버튼 배경색 */
+    color: white; /* 아이콘 색상 */
+    border: none; /* 테두리 제거 */
+    width: 50px; /* 버튼의 정사각형 크기 */
+    height: 50px; /* 버튼의 정사각형 크기 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 호버 애니메이션 */
+    border-radius: 0; /* 둥근 버튼 테두리 제거 */
+}
+
+/* 버튼 아이콘 */
+.search-button i {
+    font-size: 15px;
+}
+
+/* 버튼 호버 효과 */
+.search-button:hover {
+    background-color: #679a67; /* 호버 시 어두운 녹색 */
+}
+
+ 
+ 
+ /* 아이콘 스타일 */
+/*.icons {
+  display: flex;
+  gap: 10px;
+} */
+
+.icons a {
+  	text-decoration-line: none;
+    font-family: 'Arial', sans-serif;
+    color: #514D48;
+    font-size: 10px;
+    padding: 0;
+}
+
+/* 카테고리 바 스타일 */
+.category-bar {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+    
+    
+    
+  
