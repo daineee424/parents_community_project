@@ -16,32 +16,30 @@
   </style>
 </head>
 <body>
-  <div class="header-container">
-    <div class="header">
-      <img src="${path}/resources/images/logo.png" class="logo" alt="Logo">
-      <!-- <div class="search-box">
-        <input type="text" class="search-input" placeholder="검색어를 입력하세요">
-        <button class="search-button"><i class="fas fa-search"></i></button>
-      </div> -->
-      <div class="search-container">
-    <form class="search-form" action="#" method="post">
-        <input type="text" class="search-input" placeholder="검색어를 입력하세요">
-        <button type="submit" class="search-button">
-            <i class="fas fa-search"></i>
-        </button>
-    </form>
-</div>
+	<div class="header-container">
+    	<div class="header">
+      	<div class="logo-container">
+      		<img src="${path}/resources/images/logo.png" class="logo" alt="Logo">
+      	</div>
+      	<div class="search-container">
+    		<form class="search-form" action="#" method="post">
+        		<input type="text" class="search-input" placeholder="검색어를 입력하세요">
+        		<div class="search-button">
+            		<i class="fas fa-search"></i>
+        		</div>
+    		</form>
+		</div>
       
-      <div class="icons">
-      	<a href="">로그인</a>
-      	<a href="">아이디 찾기</a>
-      	<a href="">회원가입</a>
-      </div>
+      	<div class="icons">
+	      	<div><a href="">로그인</a></div>
+	      	<div><a href="">아이디 찾기</a></div>
+	      	<div><a href="">회원가입</a></div>
+      	</div>
     </div>
     <nav class="category-bar">
 		<ul class="main-nav">
 			<li class="home">
-				<a href="">Home</a>
+				<a href="">전체게시판</a>
 			</li>
 			<li id="notice">
 				<a href="">공지사항</a>
@@ -52,7 +50,6 @@
 		</ul>
 	</nav>
   </div>
-</body>
-</html>
+
 
 	
