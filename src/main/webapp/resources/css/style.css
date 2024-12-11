@@ -12,18 +12,6 @@ div#container{
 }
 
 
-
-
-header{
-	background-color:#D8CDB0;
-	height:130px;
-	position:relative;
-	padding:10px 0 0 0;
-}
-header h1{
-	margin-left : 10px;
-}
-
 section#content{
 	background-color:#F5F5F5;
 	float:center;
@@ -38,14 +26,6 @@ section#content{
 	
 }
 
-footer{
-	background-color:#D8CDB0;
-	clear:both;
-	height:75px;
-	text-align:center;
-	padding-top:40px;
-	margin-top: 50px;
-}
 
 /* 로그인컨테이너 */
 header div.login-container{width:250px; position:absolute; right: 0px; top: 10px;}

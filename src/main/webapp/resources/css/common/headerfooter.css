@@ -4,7 +4,7 @@
 	border: 1px solid red;
 } */
 /* 전체 컨테이너 스타일 */
-.header-container {
+.header-container, body, footer {
   background-color: #F6F2ED;
   font-family: Arial, sans-serif;
 }
@@ -17,7 +17,7 @@
   padding: 10px 20px;
 }
 
-.logo-container{
+.header>.logo-container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -110,7 +110,7 @@
 .icons a {
   	text-decoration-line: none;
     color: #514D48;
-    font-size: 10px;
+    font-size: 13px;
     padding: 0;
     white-space: nowrap;
 }
@@ -165,4 +165,20 @@ ul.main-nav li:hover > a{
     align-items: flex-end;
     gap: 5px;
   }
+}
+
+/*푸터 디자인*/
+footer{
+	border-top: 1px solid rgba(90,139,99,0.5);
+	font-size: 10px;
+	color: #495057;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+footer>.logo-container>.logo{
+	width: 50px;
+  height: 50px;
+  border-radius: 10px;
 }
