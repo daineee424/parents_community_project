@@ -1,8 +1,9 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 
 /* * div{
 	border: 1px solid red;
 } */
+
 /* 전체 컨테이너 스타일 */
 .header-container, body, footer {
   background-color: #F6F2ED;
@@ -23,7 +24,6 @@
 	align-items: center;
 	flex: 1;
 }
-
 
 /* 로고 스타일 */
 .logo {
@@ -48,7 +48,7 @@
     align-items: center;
     justify-content: center; 
     border-radius: 10px;
-    height: 40px;
+    height: 45px;
     background-color: #5A8B63;
     padding: 0px 4px;
     gap: 5px;
@@ -59,7 +59,7 @@
     flex: 1;
     border: none;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 15px !important;
     outline: none;
     color: #495057;
     background-color: transparent;
@@ -87,16 +87,12 @@
 
 /* 버튼 호버 효과 */
 .search-button:hover {
-    /* background-color: #679a67; */ /* 호버 시 어두운 녹색 */
+    background-color: #679a67; /* 호버 시 어두운 녹색 */
     background-color: white;
     color: #5A8B63;
 }
 
-
-
- 
- 
- /* 헤더 메뉴 스타일 */
+/*  헤더 메뉴 스타일 */
 .icons {
 	display: flex;
   	flex: 1;
@@ -155,7 +151,7 @@ ul.main-nav li:hover{
 }
 
 ul.main-nav li:hover > a{
-	color:white; /* 글자색*/
+	color:white; /* 글자색 */
 	text-decoration: underline;
 }
  
@@ -167,7 +163,8 @@ ul.main-nav li:hover > a{
   }
 }
 
-/*푸터 디자인*/
+
+/* 푸터 디자인 */
 footer{
 	border-top: 1px solid rgba(90,139,99,0.5);
 	font-size: 10px;
@@ -177,8 +174,53 @@ footer{
 	align-items: flex-end;
 }
 
+footer>div{
+	padding:0;
+}
+
+
 footer>.logo-container>.logo{
 	width: 50px;
-  height: 50px;
-  border-radius: 10px;
+  	height: 50px;
+  	border-radius: 10px;
 }
+
+footer>.logo-container{
+	
+  	margin-bottom: 10px;
+}
+
+footer div{
+	margin: 0px 10px;
+}
+
+/* 푸터 하단 고정 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  flex: 1;
+}
+
+/* footer를 화면 하단에 고정 */
+footer {
+  border-top: 1px solid rgba(90,139,99,0.5);
+  font-size: 10px;
+  color: #495057;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+  background-color: #F6F2ED;
+  flex-shrink: 0;
+  padding: 0;
+  margin: 0;
+}
+
+ 
+ 
