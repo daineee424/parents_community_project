@@ -1,14 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="path" value="${pageContext.request.contextPath }"/>	
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>회원가입</title>
-  <link rel="stylesheet" href="login.css">
-  <link rel="stylesheet" href="signUp.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="${path }/resources/css/login/login.css">
+<link rel="stylesheet" href="${path }/resources/css/login/signUp.css">
+<title>회원가입</title>
 </head>
 <body>
-  <div class="signup-container">
+	<div class="signup-container">
     <div class="signup-title">회원가입</div>
     <form>
       <div class="form-group">

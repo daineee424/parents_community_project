@@ -28,9 +28,9 @@
 		</div>
       
       	<div class="icons">
-	      	<div><a href="">로그인</a></div>
+	      	<div><a href="${path }/login/loginpage.do">로그인</a></div>
 	      	<div><a href="">아이디 찾기</a></div>
-	      	<div><a href="">회원가입</a></div>
+	      	<div><a href="${path }/login/signup.do">회원가입</a></div>
       	</div>
     </div>
     <nav class="category-bar">
@@ -47,7 +47,6 @@
 		</ul>
 	</nav>
   </div>
- <div id="main-container">
 
 
 	

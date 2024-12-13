@@ -26,23 +26,6 @@ section#content{
 	
 }
 
-
-/* 로그인컨테이너 */
-header div.login-container{width:250px; position:absolute; right: 0px; top: 10px;}
-
-#loginFrm table{empty-cells:hide;}
-#loginFrm input[type=submit]{width:60px; height:50px; color:white; background:#3300ff; position:absolute; top:10px;}
-#saveId+label{font-size:12px;font-family:'고딕'}
-
-
-/* 회원가입페이지 */
-section#enroll-container {text-align:center;}
-section#enroll-container input{margin:3px;}
-section#enroll-container table{margin:0 auto;}
-section#enroll-container table th {padding:0 10px; text-align:right;}
-section#enroll-container table td {padding:0 10px; text-align:left;}
-
-  
   .right-panel {
     flex: 1;
     background-color: #7ba37e;
