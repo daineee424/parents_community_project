@@ -30,9 +30,9 @@
 		</div>
       
       	<div class="login-menu">
-	      	<div><a href="${path }/login/loginpage.do">로그인</a></div>
-	      	<div><a href="">아이디 찾기</a></div>
-	      	<div><a href="${path }/login/signup.do">회원가입</a></div>
+      		<!-- 로그인시에만 보이게 처리 -->
+	      	<div><a href="#">마이페이지</a></div>
+	      	<div><a href="#">로그아웃</a></div>
       	</div>
     </div>
     <nav class="category-bar">

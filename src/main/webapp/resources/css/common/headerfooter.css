@@ -121,7 +121,6 @@
 /* 카테고리 바 스타일 */
 .category-bar {
   	text-align: center;
-  	font-size: 14px;
   	font-weight: bold;
   	padding: 0px 5px;
   	border-width: 2px 0px;
@@ -133,16 +132,17 @@
 ul.main-nav{
 	display:flex;
 	justify-content: space-around;
+	align-content: center;
 	padding:0px;
 	margin:auto;
 }
 
-ul.main-nav li { 
-	list-style-type: none; 
-	width: 8em; 
-	height: 2em;
-	float: left; 
-	text-align: center; 
+ul.main-nav li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0px 20px;
 }
 
 ul.main-nav li a {
