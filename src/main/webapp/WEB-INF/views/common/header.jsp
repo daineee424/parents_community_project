@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="${path}/resources/css/style.css">
   <link rel="stylesheet" href="${path}/resources/css/common/headerfooter.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-  <title>Header Section</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <title>Edura</title>
 </head>
 <body>
 	<div class="header-container">
@@ -27,7 +29,7 @@
     		</form>
 		</div>
       
-      	<div class="icons">
+      	<div class="login-menu">
 	      	<div><a href="${path }/login/loginpage.do">로그인</a></div>
 	      	<div><a href="">아이디 찾기</a></div>
 	      	<div><a href="${path }/login/signup.do">회원가입</a></div>
