@@ -1,16 +1,10 @@
 @charset "UTF-8";
 
-/* 배경색 설정  */
-#main-container *{
-	background-color: #F6F2ED;
-}
-
 /* 메인컨테이너 */
 #main-container{
 	padding: 0px 50px;
 	display: flex;
 	flex-direction: row;
-	background-color: #F6F2ED;
 }
 
 /* 서브컨테이너 */
@@ -29,6 +23,11 @@
 table{
 	width: 100%;
 }
+
+table>tbody *, .list-title *{
+	background-color: #F6F2ED !important;
+}
+
 
 /* 게시글 tr 클릭 */
 .boardlist tr{

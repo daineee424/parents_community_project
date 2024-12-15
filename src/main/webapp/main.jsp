@@ -30,7 +30,7 @@
 	 	<div class="boardlist">
 	 		<table class="table table-hover">
 	 			<tbody>
-	 				<tr onclick="location.assign('#')">
+	 				<tr onclick="location.assign('${path}/board/boarddetail.do')">
 		 				<td class="boardcategory">[초등]</td>
 		 				<td class="boardtitle">게시글 제목이 보일 곳</td>
 		 				<td class="likecount">
