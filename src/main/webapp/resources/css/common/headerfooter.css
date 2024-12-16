@@ -1,8 +1,8 @@
  @charset "UTF-8";
 
-* div, section{
+/* * div, section{
 	border: 1px solid red;
-}
+} */
 
 body>div, #main-container, body>footer{
 	padding-right : 20% !important;
