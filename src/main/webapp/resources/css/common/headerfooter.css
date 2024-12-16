@@ -6,7 +6,7 @@
 
 
 /* 전체 컨테이너 스타일 */
-.header-container, body, footer {
+.header-container, body, footer{
   background-color: #F6F2ED;
   font-family: Arial, sans-serif;
 }
@@ -168,6 +168,11 @@ ul.main-nav li:hover > a{
     align-items: flex-end;
     gap: 5px;
   }
+}
+
+/* 배경색 설정  */
+#main-container{
+	background-color: #F6F2ED;
 }
 
 
