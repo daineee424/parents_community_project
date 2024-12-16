@@ -33,7 +33,7 @@
       
       	<div class="login-menu">
       		<!-- 로그인시에만 보이게 처리 -->
-	      	<div><a href="#">마이페이지</a></div>
+	      	<div><a href="${path}/member/mypagemain.do">마이페이지</a></div>
 	      	<div><a href="#">로그아웃</a></div>
       	</div>
     </div>
