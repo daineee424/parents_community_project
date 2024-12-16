@@ -1,25 +1,22 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <c:set var="path" value="${pageContext.request.contextPath }"/>	
-<jsp:include page="/WEB-INF/views/common/header.jsp"/>
-<link rel="stylesheet" href="${path}/resources/css/common/main.css">
-<link rel="stylesheet" href="${path}/resources/css/login/signUp.css">
-<section id="main-container" class="d-flex flex-column align-items-center">
-<div class="container">
-        <div class="signup-container">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="${path }/resources/css/login/login.css">
+<link rel="stylesheet" href="${path }/resources/css/login/signUp.css">
+<title>회원가입</title>
+</head>
+<body>
+	<div class="signup-container">
     <div class="signup-title">회원가입</div>
     <form>
       <div class="form-group">
-        <div class="input-label">
-        	<label for="name">이름</label>
-        	<span style="color: red;">*</span>
-        </div>
-        <div class="input-group">
-	        <input type="text" id="name" placeholder="이름 입력">
-        </div>
+        <label for="name">이름 <span style="color: red;">*</span></label>
+        <input type="text" id="name" placeholder="이름 입력">
       </div>
 
       <div class="form-group">
@@ -82,10 +79,24 @@
           </select>
         </div>
       </div>
+<!-- 
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox"> 모두 동의합니다.
+        </label>
+        <label>
+          <input type="checkbox"> [필수] 이용약관 동의
+        </label>
+        <label>
+          <input type="checkbox"> [필수] 개인정보 수집 및 이용 동의
+        </label>
+        <label>
+          <input type="checkbox"> [선택] 마케팅 정보 수신 동의
+        </label>
+      </div> -->
 
       <button type="submit" class="signup-btn">회원 가입</button>
     </form>
   </div>
-</section>
-
-<jsp:include page="/WEB-INF/views/common/footer.jsp"/>
+</body>
+</html>
