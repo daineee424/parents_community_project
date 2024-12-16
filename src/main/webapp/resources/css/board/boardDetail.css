@@ -121,7 +121,9 @@
 .subcomment comment{
 	padding: 0;
 }
-
+.sub-comment{
+	padding-right: 0 !important;
+}
 
 .sub-comment, .comment-form{
     width: 100%;

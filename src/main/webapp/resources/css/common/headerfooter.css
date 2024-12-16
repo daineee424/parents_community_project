@@ -4,6 +4,10 @@
 	border: 1px solid red;
 } */
 
+body>div, #main-container, body>footer{
+	padding-right : 20% !important;
+	padding-left : 20% !important;
+}
 
 /* 전체 컨테이너 스타일 */
 .header-container, body, footer{
@@ -178,7 +182,6 @@ ul.main-nav li:hover > a{
 
 /* 푸터 디자인 */
 footer{
-	border-top: 1px solid rgba(90,139,99,0.5);
 	font-size: 10px;
 	color: #495057;
 	display: flex;
@@ -187,6 +190,7 @@ footer{
 }
 
 footer>div{
+	border-top: 1px solid rgba(90,139,99,0.5);
 	padding:0;
 }
 
@@ -221,7 +225,6 @@ html, body {
 
 /* footer를 화면 하단에 고정 */
 footer {
-  border-top: 1px solid rgba(90,139,99,0.5);
   font-size: 10px;
   color: #495057;
   display: flex;
@@ -232,6 +235,11 @@ footer {
   flex-shrink: 0;
   padding: 0;
   margin: 0;
+}
+
+footer>div{
+	border-top: 1px solid rgba(90,139,99,0.5);
+	width: 100%;
 }
 
  

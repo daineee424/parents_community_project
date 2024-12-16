@@ -18,7 +18,9 @@
 	<div class="header-container">
     	<div class="header">
       	<div class="logo-container">
-      		<img src="${path}/resources/images/logo.png" class="logo" alt="Logo">
+      		<a href="${path }/">
+	      		<img src="${path}/resources/images/logo.png" class="logo" alt="Logo" onclick="mainPage();">
+      		</a>
       	</div>
       	<div class="search-container">
     		<form class="search-form" action="#" method="post">
@@ -49,6 +51,4 @@
 		</ul>
 	</nav>
   </div>
-
-
 	
