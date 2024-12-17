@@ -44,7 +44,7 @@
 				<a href="">공지사항</a>
 			</li>
 			<li>
-				<a href="">게시판</a>
+				<a href="${path}/board.do">게시판</a>
 			</li>
 		</ul>
 	</nav>
