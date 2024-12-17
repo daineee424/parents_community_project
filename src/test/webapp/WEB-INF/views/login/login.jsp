@@ -1,16 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<c:set var="path" value="${pageContext.request.contextPath }"/>	
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="${path }/resources/css/login/login.css">
-<link rel="stylesheet" href="${path }/resources/css/login/signUp.css">
-<title>회원가입</title>
-</head>
-<body>
+<c:set var="path" value="${pageContext.request.contextPath }" />
+<script src="${pageContext.request.contextPath }/resources/js/jquery-3.7.1.min.js"></script>
+<jsp:include page="/WEB-INF/views/common/header.jsp"/>
 	<div class="container">
 		<div class="left-panel"></div>
 		<div class="right-panel">
@@ -40,5 +33,4 @@
 			}
 		});
   </script>
-</body>
-</html>
+<jsp:include page="/WEB-INF/views/common/footer.jsp"/>
