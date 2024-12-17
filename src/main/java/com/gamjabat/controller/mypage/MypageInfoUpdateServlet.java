@@ -1,4 +1,4 @@
-package cpm.gamjabat.controller.mypage;
+package com.gamjabat.controller.mypage;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class MypageMainServlet
+ * Servlet implementation class MypageInfoUpdateServlet
  */
-@WebServlet("/member/mypagemain.do")
-public class MypageMainServlet extends HttpServlet {
+@WebServlet("/member/mypageinfoupdate.do")
+public class MypageInfoUpdateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public MypageMainServlet() {
+    public MypageInfoUpdateServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -26,7 +26,7 @@ public class MypageMainServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/views/member/mypageMain.jsp")
+		request.getRequestDispatcher("/WEB-INF/views/member/mypageInfoUpdate.jsp")
 		.forward(request, response);
 	}
 
